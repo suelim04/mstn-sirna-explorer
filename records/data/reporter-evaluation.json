@@ -1,0 +1,494 @@
+{
+  "analysis_plan_commit": "c88a0d5e0aafb4237147041372332538f699bb24",
+  "evaluation_plan_commit": "2cba539a8d44695fd23bac630ae837c7e6799d48",
+  "evaluation_freeze_tag": "evaluation-freeze-v1",
+  "variant_coverage": "UNASSESSED — excluded from accelerated scope",
+  "muscle_expression_annotation": "UNASSESSED — excluded from accelerated scope",
+  "started_at_utc": "2026-09-16T08:10:16.721876+00:00",
+  "input_path": "data/efficacy/huesken2005_measurements.tsv",
+  "input_sha256": "fef9e88a91ded197fd4551d68df5c808788b2f2bb7a61b3738d892305fd49ac9",
+  "evaluation_plan_sha256": "04a3440c3d6c15f4fe5102bac2a63dcf3bd0ea0f21e9d51927865b54405b01b2",
+  "evaluator_sha256": "5d62bd66ec6f37030b2ddbbc865b020a433d1edd996814d3156094bd8c96acb1",
+  "synthetic_tests_sha256": "f125107ac60bf5d877728229ce56b86fcde2409d65ae4244fd240492c1eff594",
+  "execution_status": "COMPLETED_SINGLE_EXECUTION",
+  "primary_14A": {
+    "n": 30,
+    "df": 29,
+    "estimate": 0.07523652948537685,
+    "sd_for_interval": 0.05409131675841125,
+    "se": 0.00987567811791302,
+    "lower": 0.0550384998624596,
+    "upper": 0.0954345591082941,
+    "t_critical": 2.0452296421327265,
+    "direction": "positive",
+    "excludes_zero": true,
+    "status": "ESTIMABLE",
+    "label": "enrichment detected",
+    "threshold_interpretation": "exceeds δ"
+  },
+  "sensitivity_14B": {
+    "n": 12,
+    "df": 11,
+    "estimate": 0.09141409256787769,
+    "sd_for_interval": 0.052503268597553804,
+    "se": 0.015156388129066457,
+    "lower": 0.05805510721521344,
+    "upper": 0.12477307792054194,
+    "t_critical": 2.2009851600916326,
+    "direction": "positive",
+    "excludes_zero": true,
+    "status": "ESTIMABLE"
+  },
+  "block_means": {
+    "UBC": 0.06616498617316903,
+    "P2X": 0.03532200880289971,
+    "Hs:C6orf110": 0.1442461340206186,
+    "Hs:NOG": 0.1118251811594203,
+    "Hs:RAB6IP1": -0.013072502210433212,
+    "Hs:SOST": 0.11708436724565752,
+    "Hs:TC10": 0.13441153846153853,
+    "Hs:Ufc1": 0.13383030303030308,
+    "Rn:Cacnb1": 0.16620075757575759,
+    "Rn:Fxyd6": 0.054916666666666614,
+    "Rn:Mmp7": 0.08890563725490197,
+    "Rn:TCAP": 0.057134032634032605
+  },
+  "disagreement": false,
+  "per_gene": [
+    {
+      "gene": "Hs:C6orf110",
+      "block": "Hs:C6orf110",
+      "n_pass": 97,
+      "n_fail": 48,
+      "mean_pass": 0.6743711340206185,
+      "mean_fail": 0.530125,
+      "contrast": 0.1442461340206186
+    },
+    {
+      "gene": "Hs:CDC34",
+      "block": "UBC",
+      "n_pass": 28,
+      "n_fail": 29,
+      "mean_pass": 0.6142142857142857,
+      "mean_fail": 0.5004827586206897,
+      "contrast": 0.11373152709359602
+    },
+    {
+      "gene": "Hs:FLJ11011",
+      "block": "UBC",
+      "n_pass": 43,
+      "n_fail": 35,
+      "mean_pass": 0.9339069767441861,
+      "mean_fail": 0.9362285714285714,
+      "contrast": -0.0023215946843853086
+    },
+    {
+      "gene": "Hs:HIP2",
+      "block": "UBC",
+      "n_pass": 58,
+      "n_fail": 21,
+      "mean_pass": 0.7360172413793103,
+      "mean_fail": 0.7298095238095238,
+      "contrast": 0.006207717569786553
+    },
+    {
+      "gene": "Hs:HSPC150",
+      "block": "UBC",
+      "n_pass": 63,
+      "n_fail": 14,
+      "mean_pass": 0.8576031746031746,
+      "mean_fail": 0.8393571428571429,
+      "contrast": 0.018246031746031677
+    },
+    {
+      "gene": "Hs:NOG",
+      "block": "Hs:NOG",
+      "n_pass": 23,
+      "n_fail": 48,
+      "mean_pass": 0.7803043478260869,
+      "mean_fail": 0.6684791666666666,
+      "contrast": 0.1118251811594203
+    },
+    {
+      "gene": "Hs:P2RX3",
+      "block": "P2X",
+      "n_pass": 47,
+      "n_fail": 43,
+      "mean_pass": 0.6779574468085107,
+      "mean_fail": 0.6307441860465116,
+      "contrast": 0.047213260761999054
+    },
+    {
+      "gene": "Hs:RAB6IP1",
+      "block": "Hs:RAB6IP1",
+      "n_pass": 87,
+      "n_fail": 39,
+      "mean_pass": 0.5865172413793104,
+      "mean_fail": 0.5995897435897436,
+      "contrast": -0.013072502210433212
+    },
+    {
+      "gene": "Hs:SOST",
+      "block": "Hs:SOST",
+      "n_pass": 13,
+      "n_fail": 62,
+      "mean_pass": 0.7229230769230769,
+      "mean_fail": 0.6058387096774194,
+      "contrast": 0.11708436724565752
+    },
+    {
+      "gene": "Hs:TC10",
+      "block": "Hs:TC10",
+      "n_pass": 52,
+      "n_fail": 15,
+      "mean_pass": 0.7182115384615385,
+      "mean_fail": 0.5838,
+      "contrast": 0.13441153846153853
+    },
+    {
+      "gene": "Hs:UBE2B",
+      "block": "UBC",
+      "n_pass": 46,
+      "n_fail": 33,
+      "mean_pass": 0.6808043478260869,
+      "mean_fail": 0.7115757575757575,
+      "contrast": -0.03077140974967063
+    },
+    {
+      "gene": "Hs:UBE2C",
+      "block": "UBC",
+      "n_pass": 59,
+      "n_fail": 17,
+      "mean_pass": 0.7272881355932204,
+      "mean_fail": 0.6687058823529411,
+      "contrast": 0.058582253240279214
+    },
+    {
+      "gene": "Hs:UBE2D3",
+      "block": "UBC",
+      "n_pass": 50,
+      "n_fail": 28,
+      "mean_pass": 0.77086,
+      "mean_fail": 0.7266785714285714,
+      "contrast": 0.044181428571428594
+    },
+    {
+      "gene": "Hs:UBE2E3",
+      "block": "UBC",
+      "n_pass": 57,
+      "n_fail": 22,
+      "mean_pass": 0.6720526315789473,
+      "mean_fail": 0.6120454545454546,
+      "contrast": 0.06000717703349279
+    },
+    {
+      "gene": "Hs:UBE2G1",
+      "block": "UBC",
+      "n_pass": 48,
+      "n_fail": 31,
+      "mean_pass": 0.7181875,
+      "mean_fail": 0.6363225806451613,
+      "contrast": 0.08186491935483864
+    },
+    {
+      "gene": "Hs:UBE2H",
+      "block": "UBC",
+      "n_pass": 39,
+      "n_fail": 31,
+      "mean_pass": 0.809076923076923,
+      "mean_fail": 0.7583870967741936,
+      "contrast": 0.050689826302729446
+    },
+    {
+      "gene": "Hs:UBE2I",
+      "block": "UBC",
+      "n_pass": 52,
+      "n_fail": 12,
+      "mean_pass": 0.7002692307692308,
+      "mean_fail": 0.6681666666666667,
+      "contrast": 0.03210256410256407
+    },
+    {
+      "gene": "Hs:UBE2J1",
+      "block": "UBC",
+      "n_pass": 37,
+      "n_fail": 12,
+      "mean_pass": 0.6968648648648649,
+      "mean_fail": 0.5361666666666667,
+      "contrast": 0.1606981981981982
+    },
+    {
+      "gene": "Hs:UBE2L3",
+      "block": "UBC",
+      "n_pass": 35,
+      "n_fail": 18,
+      "mean_pass": 0.7299428571428571,
+      "mean_fail": 0.5908888888888889,
+      "contrast": 0.1390539682539682
+    },
+    {
+      "gene": "Hs:UBE2L6",
+      "block": "UBC",
+      "n_pass": 39,
+      "n_fail": 33,
+      "mean_pass": 0.7347179487179487,
+      "mean_fail": 0.6337272727272727,
+      "contrast": 0.10099067599067602
+    },
+    {
+      "gene": "Hs:UBE2M",
+      "block": "UBC",
+      "n_pass": 39,
+      "n_fail": 37,
+      "mean_pass": 0.7070512820512821,
+      "mean_fail": 0.6442702702702703,
+      "contrast": 0.06278101178101181
+    },
+    {
+      "gene": "Hs:UBE2N",
+      "block": "UBC",
+      "n_pass": 56,
+      "n_fail": 23,
+      "mean_pass": 0.6933392857142857,
+      "mean_fail": 0.6408695652173912,
+      "contrast": 0.05246972049689447
+    },
+    {
+      "gene": "Hs:UBE2S",
+      "block": "UBC",
+      "n_pass": 32,
+      "n_fail": 47,
+      "mean_pass": 0.63496875,
+      "mean_fail": 0.4827446808510638,
+      "contrast": 0.15222406914893616
+    },
+    {
+      "gene": "Hs:UBE2V1",
+      "block": "UBC",
+      "n_pass": 50,
+      "n_fail": 24,
+      "mean_pass": 0.77194,
+      "mean_fail": 0.6817083333333334,
+      "contrast": 0.0902316666666666
+    },
+    {
+      "gene": "Hs:Ufc1",
+      "block": "Hs:Ufc1",
+      "n_pass": 55,
+      "n_fail": 15,
+      "mean_pass": 0.8013636363636364,
+      "mean_fail": 0.6675333333333333,
+      "contrast": 0.13383030303030308
+    },
+    {
+      "gene": "Rn:Cacnb1",
+      "block": "Rn:Cacnb1",
+      "n_pass": 24,
+      "n_fail": 22,
+      "mean_pass": 0.6717916666666667,
+      "mean_fail": 0.5055909090909091,
+      "contrast": 0.16620075757575759
+    },
+    {
+      "gene": "Rn:Fxyd6",
+      "block": "Rn:Fxyd6",
+      "n_pass": 48,
+      "n_fail": 24,
+      "mean_pass": 0.7393333333333333,
+      "mean_fail": 0.6844166666666667,
+      "contrast": 0.054916666666666614
+    },
+    {
+      "gene": "Rn:Mmp7",
+      "block": "Rn:Mmp7",
+      "n_pass": 102,
+      "n_fail": 48,
+      "mean_pass": 0.8246764705882353,
+      "mean_fail": 0.7357708333333334,
+      "contrast": 0.08890563725490197
+    },
+    {
+      "gene": "Rn:P2rx2",
+      "block": "P2X",
+      "n_pass": 54,
+      "n_fail": 23,
+      "mean_pass": 0.5896481481481481,
+      "mean_fail": 0.5662173913043478,
+      "contrast": 0.02343075684380036
+    },
+    {
+      "gene": "Rn:TCAP",
+      "block": "Rn:TCAP",
+      "n_pass": 78,
+      "n_fail": 66,
+      "mean_pass": 0.6945128205128205,
+      "mean_fail": 0.6373787878787879,
+      "contrast": 0.057134032634032605
+    }
+  ],
+  "blocks": {
+    "UBC": [
+      "Hs:CDC34",
+      "Hs:FLJ11011",
+      "Hs:HIP2",
+      "Hs:HSPC150",
+      "Hs:UBE2B",
+      "Hs:UBE2C",
+      "Hs:UBE2D3",
+      "Hs:UBE2E3",
+      "Hs:UBE2G1",
+      "Hs:UBE2H",
+      "Hs:UBE2I",
+      "Hs:UBE2J1",
+      "Hs:UBE2L3",
+      "Hs:UBE2L6",
+      "Hs:UBE2M",
+      "Hs:UBE2N",
+      "Hs:UBE2S",
+      "Hs:UBE2V1"
+    ],
+    "P2X": [
+      "Hs:P2RX3",
+      "Rn:P2rx2"
+    ],
+    "Hs:C6orf110": [
+      "Hs:C6orf110"
+    ],
+    "Hs:NOG": [
+      "Hs:NOG"
+    ],
+    "Hs:RAB6IP1": [
+      "Hs:RAB6IP1"
+    ],
+    "Hs:SOST": [
+      "Hs:SOST"
+    ],
+    "Hs:TC10": [
+      "Hs:TC10"
+    ],
+    "Hs:Ufc1": [
+      "Hs:Ufc1"
+    ],
+    "Rn:Cacnb1": [
+      "Rn:Cacnb1"
+    ],
+    "Rn:Fxyd6": [
+      "Rn:Fxyd6"
+    ],
+    "Rn:Mmp7": [
+      "Rn:Mmp7"
+    ],
+    "Rn:TCAP": [
+      "Rn:TCAP"
+    ]
+  },
+  "record_count": 2431,
+  "informative_genes": 30,
+  "strata_counts": {
+    "PASS": 1511,
+    "FAIL": 920
+  },
+  "minimum_minority_stratum": 12,
+  "excluded_records": 0,
+  "excluded_genes": 0,
+  "activity_direction": "higher = more inhibition",
+  "analysis_type": "retrospective evaluation",
+  "primary_delta": 0.05,
+  "primary_control_window": 0.546,
+  "primary_planning": {
+    "grid": [
+      {
+        "assumed_sigma_D": 0.02,
+        "mde": 0.01058472,
+        "percent_control_window": 1.9385934065934065,
+        "optimistic_below_noise_benchmark": true
+      },
+      {
+        "assumed_sigma_D": 0.03,
+        "mde": 0.015877080000000002,
+        "percent_control_window": 2.90789010989011,
+        "optimistic_below_noise_benchmark": true
+      },
+      {
+        "assumed_sigma_D": 0.04,
+        "mde": 0.02116944,
+        "percent_control_window": 3.877186813186813,
+        "optimistic_below_noise_benchmark": true
+      },
+      {
+        "assumed_sigma_D": 0.05,
+        "mde": 0.026461800000000004,
+        "percent_control_window": 4.846483516483517,
+        "optimistic_below_noise_benchmark": false
+      },
+      {
+        "assumed_sigma_D": 0.06,
+        "mde": 0.031754160000000003,
+        "percent_control_window": 5.81578021978022,
+        "optimistic_below_noise_benchmark": false
+      },
+      {
+        "assumed_sigma_D": 0.07,
+        "mde": 0.037046520000000006,
+        "percent_control_window": 6.7850769230769234,
+        "optimistic_below_noise_benchmark": false
+      },
+      {
+        "assumed_sigma_D": 0.08,
+        "mde": 0.04233888,
+        "percent_control_window": 7.754373626373626,
+        "optimistic_below_noise_benchmark": false
+      },
+      {
+        "assumed_sigma_D": 0.09,
+        "mde": 0.047631240000000005,
+        "percent_control_window": 8.72367032967033,
+        "optimistic_below_noise_benchmark": false
+      },
+      {
+        "assumed_sigma_D": 0.1,
+        "mde": 0.05292360000000001,
+        "percent_control_window": 9.692967032967035,
+        "optimistic_below_noise_benchmark": false
+      },
+      {
+        "assumed_sigma_D": 0.11,
+        "mde": 0.058215960000000004,
+        "percent_control_window": 10.662263736263736,
+        "optimistic_below_noise_benchmark": false
+      },
+      {
+        "assumed_sigma_D": 0.12,
+        "mde": 0.06350832000000001,
+        "percent_control_window": 11.63156043956044,
+        "optimistic_below_noise_benchmark": false
+      },
+      {
+        "assumed_sigma_D": 0.13,
+        "mde": 0.06880068,
+        "percent_control_window": 12.600857142857144,
+        "optimistic_below_noise_benchmark": false
+      },
+      {
+        "assumed_sigma_D": 0.14,
+        "mde": 0.07409304000000001,
+        "percent_control_window": 13.570153846153847,
+        "optimistic_below_noise_benchmark": false
+      },
+      {
+        "assumed_sigma_D": 0.15,
+        "mde": 0.07938540000000001,
+        "percent_control_window": 14.53945054945055,
+        "optimistic_below_noise_benchmark": false
+      }
+    ],
+    "reference_assumption": {
+      "assumed_sigma_D": 0.075,
+      "mde": 0.039692700000000004,
+      "percent_control_window": 7.269725274725275
+    }
+  },
+  "synthetic_validation": "Synthetic-only unittest suite passed before execution; see task execution record",
+  "implementation_corrections": "No outcome-driven rule changes or alternate analyses",
+  "completed_at_utc": "2026-09-16T08:10:16.727612+00:00"
+}
